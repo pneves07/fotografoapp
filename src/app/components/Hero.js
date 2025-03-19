@@ -12,11 +12,14 @@ export default function Hero(){
           backgroundImage: "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
         }}>
 
-        <Lanyard 
-            position={[10, 0, 20]} 
-            gravity={[0, -40, 0]} 
-            className="absolute top-0 left-1/2 transform -translate-x-1/2 z-50"
-        />
+        <div className="hidden md:block">
+            <Lanyard 
+                position={[10, 0, 20]} 
+                gravity={[0, -40, 0]} 
+                className="absolute top-0 left-1/2 transform -translate-x-1/2 z-50"
+            />
+        </div>            
+        
         <div className="hero-overlay"></div>
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-md">
