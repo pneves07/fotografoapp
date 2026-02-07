@@ -24,7 +24,7 @@ export default function Hero(){
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">
             <TrueFocus 
-                sentence="Snow Lens"
+                sentence="SnowDev"
                 manualMode={false}
                 blurAmount={5}
                 borderColor="red"
